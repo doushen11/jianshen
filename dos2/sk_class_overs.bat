@@ -1,0 +1,1 @@
+D:\soft\phpStudy\php\php-5.3.29-nts\php.exe -q D:\php_workspaces\jianshen\dos2\sk_class_overs.php

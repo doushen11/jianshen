@@ -1,0 +1,4 @@
+后台登录地址：
+http://www.jianshen.com/index.php/admin/login/indexs
+用户名:zhuzong 密码:zhuzong0088
+用户名:root 密码:123456

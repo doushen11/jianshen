@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<definitions name="101.201.37.67" targetNamespace="urn:101.201.37.67" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:101.201.37.67" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+<types xmlns="http://schemas.xmlsoap.org/wsdl/" />
+<portType name="101.201.37.67Port"><operation name="return_success">
+<input message="tns:return_successRequest" />
+<output message="tns:return_successResponse" />
+</operation>
+</portType>
+<binding name="101.201.37.67Binding" type="tns:101.201.37.67Port">
+<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http" />
+<operation name="return_success">
+<soap:operation soapAction="urn:101.201.37.67#Mywsdl#return_success" />
+<input><soap:body use="encoded" namespace="urn:101.201.37.67" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</input>
+<output>
+<soap:body use="encoded" namespace="urn:101.201.37.67" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+</output>
+</operation>
+</binding>
+<service name="101.201.37.67">
+<documentation />
+<port name="101.201.37.67Port" binding="tns:101.201.37.67Binding"><soap:address location="http://101.201.37.67:10090/websevice/Api.php" />
+</port>
+</service>
+<message name="return_successRequest">
+<part name="str" type="xsd:string" />
+</message>
+<message name="return_successResponse">
+<part name="return_success" type="xsd:string" />
+</message>
+</definitions>

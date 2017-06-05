@@ -1,0 +1,26 @@
+    	body{font-family:'微软雅黑';font-size:14px;
+			margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+		}
+		div{width:100%;}
+		.full{width:100%;}
+		.top-bar{width:98%; margin-left:1%; margin-right:1%; height:40px;border-bottom:#CCC 1px solid;color:#999;}
+		.sl-name{width:auto;line-height:40px;text-align:left;float:left; margin-right:8%}
+		.ll-time{width:25%;line-height:40px;text-align:left;float:left;}
+		.ll-title{width:98%;margin-left:1%; margin-right:1%; height:55px; line-height:55px;text-align:center;font-size:16px;color:#0ea3b5;}
+		.ll-title1{width:98%;margin-left:1%; margin-right:1%; height:35px; line-height:35px;text-align:center;font-size:16px;color:#0ea3b5;}
+		.ps{width:30%; margin-right:2%; float:right; text-align:right;}
+		.ps a{width:auto; display:inline; background:url(/public/images/u2_r2_c2.jpg) no-repeat 0px -3px; height:40px; line-height:40px; padding-left:27px; padding-right:10px; height:auto;text-decoration:none;color:#999;}
+		
+		.slider{min-height: 92px;position: relative; background: #fff;}
+		.slider .swipe {width: 100%; height: 100%;overflow: hidden; visibility: hidden; position: relative;}
+		.slider .swipe-wrap {overflow: hidden;width: 100%; height: 100%;position: relative;}
+		.slider .swipe-wrap > div {float:left;width:100%;position: relative;}
+		.slider .swipe-wrap > div img{width: 100%;}
+		.slider .page{position: absolute; bottom:5px; left: 0px; width: 100%; text-align: center;}
+		.slider .page span{display: inline-block; width: 8px; height: 8px;border-radius: 50%; background: rgba(255,255,255,0.4);}
+		.slider .page span.on{background: rgba(255,255,255,0.9);}
+		.ll-text{width:96%; float:left; height:auto; line-height:26px; padding-left:2%;padding-right:2%;padding-top:10px; padding-bottom:20px;}
+		.ll-text1{width:96%; float:left; height:auto; line-height:26px; padding-left:2%;padding-right:2%;padding-bottom:20px;}

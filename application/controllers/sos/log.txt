@@ -1,0 +1,14 @@
+//数据库修改记录
+
+1.dg_doors表加了act索引
+
+2.创建了dg_worker表
+
+3.创建了dg_worker_sos表
+
+
+
+
+//文件修改
+
+1.修改了function_helper文件，增加I方法
